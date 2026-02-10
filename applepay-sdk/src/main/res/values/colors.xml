@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ApplePay SDK Colors (prefixed with apsdk_) -->
+    
+    <!-- Apple Pay Brand Colors -->
+    <color name="apsdk_apple_pay_black">#000000</color>
+    <color name="apsdk_apple_pay_white">#FFFFFF</color>
+    
+    <!-- UI Colors -->
+    <color name="apsdk_primary">#007AFF</color>
+    <color name="apsdk_border">#E0E0E0</color>
+    <color name="apsdk_background">#FFFFFF</color>
+    <color name="apsdk_text_primary">#212121</color>
+    <color name="apsdk_text_secondary">#757575</color>
+</resources>

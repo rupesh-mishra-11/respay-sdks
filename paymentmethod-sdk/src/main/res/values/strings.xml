@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PaymentMethod SDK Strings (prefixed with pmsdk_) -->
+    
+    <!-- General -->
+    <string name="pmsdk_back">Back</string>
+    <string name="pmsdk_close">Close</string>
+    <string name="pmsdk_cancel">Cancel</string>
+    <string name="pmsdk_confirm">Confirm</string>
+    <string name="pmsdk_retry">Retry</string>
+    
+    <!-- Payment Methods Screen -->
+    <string name="pmsdk_select_payment_method">Select Payment Method</string>
+    <string name="pmsdk_manage_payment_methods">Manage Payment Methods</string>
+    <string name="pmsdk_add_payment_method">Add Payment Method</string>
+    <string name="pmsdk_no_payment_methods">No payment methods</string>
+    <string name="pmsdk_add_first_card">Add your first card to get started</string>
+    <string name="pmsdk_add_new_card">Add New Card</string>
+    <string name="pmsdk_default">Default</string>
+    <string name="pmsdk_card_type">Card type</string>
+    <string name="pmsdk_expires_format">Expires %1$s</string>
+    
+    <!-- Add Card Dialog -->
+    <string name="pmsdk_card_number">Card Number</string>
+    <string name="pmsdk_expiry">MM/YY</string>
+    <string name="pmsdk_cvv">CVV</string>
+    <string name="pmsdk_card_holder_name">Card Holder Name</string>
+    <string name="pmsdk_add_card">Add Card</string>
+    <string name="pmsdk_card_added">Card added successfully</string>
+    
+    <!-- Errors -->
+    <string name="pmsdk_error_loading">Failed to load. Please try again.</string>
+    <string name="pmsdk_error_invalid_card">Invalid card number</string>
+    <string name="pmsdk_error_invalid_expiry">Use MM/YY format</string>
+    <string name="pmsdk_error_invalid_cvv">Invalid CVV</string>
+    <string name="pmsdk_error_name_required">Name is required</string>
+    <string name="pmsdk_error_select_payment">Please select a payment method</string>
+</resources>

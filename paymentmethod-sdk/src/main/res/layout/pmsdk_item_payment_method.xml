@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/pmsdk_surface"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/pmsdk_border"
+    app:strokeWidth="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Card Icon -->
+        <ImageView
+            android:id="@+id/pmsdk_ivCardIcon"
+            android:layout_width="48dp"
+            android:layout_height="32dp"
+            android:contentDescription="@string/pmsdk_card_type"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/pmsdk_ic_visa" />
+
+        <!-- Card Number -->
+        <TextView
+            android:id="@+id/pmsdk_tvCardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/pmsdk_text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/pmsdk_ivCardIcon"
+            app:layout_constraintTop_toTopOf="@id/pmsdk_ivCardIcon"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            tools:text="•••• •••• •••• 4242" />
+
+        <!-- Default Badge -->
+        <TextView
+            android:id="@+id/pmsdk_tvDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/pmsdk_bg_badge"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:text="@string/pmsdk_default"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/pmsdk_tvCardNumber"
+            app:layout_constraintStart_toEndOf="@id/pmsdk_tvCardNumber"
+            app:layout_constraintTop_toTopOf="@id/pmsdk_tvCardNumber"
+            tools:visibility="visible" />
+
+        <!-- Selection Indicator -->
+        <ImageView
+            android:id="@+id/pmsdk_ivSelected"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/pmsdk_ic_check"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/pmsdk_primary"
+            tools:visibility="visible" />
+
+        <!-- Card Holder & Expiry -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@id/pmsdk_ivSelected"
+            app:layout_constraintStart_toEndOf="@id/pmsdk_ivCardIcon"
+            app:layout_constraintTop_toBottomOf="@id/pmsdk_tvCardNumber">
+
+            <TextView
+                android:id="@+id/pmsdk_tvCardHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/pmsdk_text_secondary"
+                android:textSize="13sp"
+                tools:text="John Doe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:text="•"
+                android:textColor="@color/pmsdk_text_secondary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/pmsdk_tvExpiry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pmsdk_text_secondary"
+                android:textSize="13sp"
+                tools:text="Expires 12/27" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

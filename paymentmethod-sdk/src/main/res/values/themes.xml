@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PaymentMethod SDK Themes -->
+    
+    <!-- Default theme with customizable attributes -->
+    <style name="PaymentMethodSDKTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Default colors (can be overridden by host app) -->
+        <item name="pmsdkPrimaryColor">@color/pmsdk_primary</item>
+        <item name="pmsdkPrimaryDarkColor">@color/pmsdk_primary_dark</item>
+        <item name="pmsdkAccentColor">@color/pmsdk_accent</item>
+        <item name="pmsdkBackgroundColor">@color/pmsdk_background</item>
+        <item name="pmsdkSurfaceColor">@color/pmsdk_surface</item>
+        <item name="pmsdkTextPrimaryColor">@color/pmsdk_text_primary</item>
+        <item name="pmsdkTextSecondaryColor">@color/pmsdk_text_secondary</item>
+        <item name="pmsdkBorderColor">@color/pmsdk_border</item>
+        <item name="pmsdkSuccessColor">@color/pmsdk_success</item>
+        <item name="pmsdkErrorColor">@color/pmsdk_error</item>
+        
+        <!-- Default dimensions -->
+        <item name="pmsdkTitleTextSize">20sp</item>
+        <item name="pmsdkBodyTextSize">16sp</item>
+        <item name="pmsdkCardCornerRadius">12dp</item>
+        <item name="pmsdkButtonCornerRadius">8dp</item>
+        
+        <!-- Material theme colors mapped to SDK attributes -->
+        <item name="colorPrimary">?attr/pmsdkPrimaryColor</item>
+        <item name="colorPrimaryDark">?attr/pmsdkPrimaryDarkColor</item>
+        <item name="colorAccent">?attr/pmsdkAccentColor</item>
+        <item name="android:windowBackground">?attr/pmsdkBackgroundColor</item>
+        <item name="android:statusBarColor">?attr/pmsdkPrimaryDarkColor</item>
+    </style>
+    
+    <style name="PaymentMethodDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">?attr/pmsdkPrimaryColor</item>
+        <item name="colorPrimaryDark">?attr/pmsdkPrimaryDarkColor</item>
+        <item name="colorAccent">?attr/pmsdkAccentColor</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="payment_primary">#1976D2</color>
+    <color name="payment_primary_dark">#1565C0</color>
+    
+    <!-- Background Colors -->
+    <color name="payment_background">#F5F5F5</color>
+    <color name="payment_surface">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="payment_text_primary">#212121</color>
+    <color name="payment_text_secondary">#757575</color>
+    <color name="payment_text_on_primary">#FFFFFF</color>
+    
+    <!-- UI Colors -->
+    <color name="payment_border">#E0E0E0</color>
+    <color name="payment_divider">#EEEEEE</color>
+    <color name="payment_success">#4CAF50</color>
+    <color name="payment_error">#F44336</color>
+</resources>

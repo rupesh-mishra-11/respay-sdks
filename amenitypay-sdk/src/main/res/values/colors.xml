@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="amenity_primary">#1E3A5F</color>
+    <color name="amenity_primary_dark">#0F2847</color>
+    <color name="amenity_primary_light">#3D5A80</color>
+    
+    <!-- Accent Colors -->
+    <color name="amenity_accent">#00B4D8</color>
+    <color name="amenity_accent_dark">#0096C7</color>
+    
+    <!-- Success, Warning, Error -->
+    <color name="amenity_success">#2E7D32</color>
+    <color name="amenity_warning">#F57C00</color>
+    <color name="amenity_error">#C62828</color>
+    
+    <!-- Background Colors -->
+    <color name="amenity_background">#F8FAFC</color>
+    <color name="amenity_surface">#FFFFFF</color>
+    <color name="amenity_card_background">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="amenity_text_primary">#1A1A2E</color>
+    <color name="amenity_text_secondary">#64748B</color>
+    <color name="amenity_text_hint">#94A3B8</color>
+    <color name="amenity_text_on_primary">#FFFFFF</color>
+    
+    <!-- Divider and Border -->
+    <color name="amenity_divider">#E2E8F0</color>
+    <color name="amenity_border">#CBD5E1</color>
+    
+    <!-- Card Type Colors -->
+    <color name="card_visa">#1A1F71</color>
+    <color name="card_mastercard">#EB001B</color>
+    <color name="card_amex">#006FCF</color>
+    <color name="card_discover">#FF6000</color>
+    
+    <!-- Overlay -->
+    <color name="amenity_overlay">#80000000</color>
+</resources>

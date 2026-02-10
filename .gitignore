@@ -1,0 +1,91 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/.name
+.idea/misc.xml
+.idea/compiler.xml
+.idea/deploymentTargetSelector.xml
+.idea/migrations.xml
+.idea/runConfigurations.xml
+.idea/codeStyles/
+.idea/vcs.xml
+.idea/appInsightsSettings.xml
+.idea/kotlinc.xml
+.idea/jarRepositories.xml
+
+# Ignore entire .idea folder (uncomment if you want)
+# .idea/
+
+# Keystore files
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# NDK
+obj/
+
+# IntelliJ
+*.iws
+
+# Kotlin
+.kotlin/
+
+# Secrets
+secrets.properties
+keystore.properties
+
+# Google Services
+google-services.json
+
+# Screenshots from testing
+emulator_screenshot.png

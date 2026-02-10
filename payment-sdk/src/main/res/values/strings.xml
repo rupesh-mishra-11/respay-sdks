@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Payment SDK</string>
+    
+    <!-- General -->
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="done">Done</string>
+    
+    <!-- Payment Screen -->
+    <string name="make_payment">Make Payment</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="amount_to_pay">Amount to Pay</string>
+    <string name="select_amount">Select Amount</string>
+    <string name="pay_full_amount">Full Amount</string>
+    <string name="pay_total_balance">Pay the total balance</string>
+    <string name="other_amount">Other Amount</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="no_payment_methods">No saved payment methods. Add a card to continue.</string>
+    <string name="add_new_card">Add New Card</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="default_label">Default</string>
+    
+    <!-- Add Card Dialog -->
+    <string name="card_number">Card Number</string>
+    <string name="expiry">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="add_card">Add Card</string>
+    <string name="card_added">Card added successfully</string>
+    
+    <!-- Success -->
+    <string name="payment_successful">Payment Successful!</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="confirmation">Confirmation #</string>
+    
+    <!-- Errors -->
+    <string name="error_loading">Failed to load. Please try again.</string>
+    <string name="error_invalid_card">Invalid card number</string>
+    <string name="error_invalid_expiry">Use MM/YY format</string>
+    <string name="error_invalid_cvv">Invalid CVV</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_invalid_amount">Please enter a valid amount</string>
+    <string name="error_amount_exceeds">Amount exceeds total balance</string>
+</resources>

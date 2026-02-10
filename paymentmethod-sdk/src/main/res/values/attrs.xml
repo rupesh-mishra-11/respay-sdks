@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PaymentMethod SDK Customizable Attributes -->
+    
+    <!-- Colors -->
+    <attr name="pmsdkPrimaryColor" format="color" />
+    <attr name="pmsdkPrimaryDarkColor" format="color" />
+    <attr name="pmsdkAccentColor" format="color" />
+    <attr name="pmsdkBackgroundColor" format="color" />
+    <attr name="pmsdkSurfaceColor" format="color" />
+    <attr name="pmsdkTextPrimaryColor" format="color" />
+    <attr name="pmsdkTextSecondaryColor" format="color" />
+    <attr name="pmsdkBorderColor" format="color" />
+    <attr name="pmsdkSuccessColor" format="color" />
+    <attr name="pmsdkErrorColor" format="color" />
+    
+    <!-- Typography -->
+    <attr name="pmsdkTitleTextSize" format="dimension" />
+    <attr name="pmsdkBodyTextSize" format="dimension" />
+    
+    <!-- Corners -->
+    <attr name="pmsdkCardCornerRadius" format="dimension" />
+    <attr name="pmsdkButtonCornerRadius" format="dimension" />
+</resources>

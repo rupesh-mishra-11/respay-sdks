@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AmenityPay</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Enter your credentials to continue</string>
+    <string name="hint_email">Email or Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_login_failed">Login failed. Please try again.</string>
+    
+    <!-- Payment Methods Screen -->
+    <string name="payment_methods_title">Payment Methods</string>
+    <string name="payment_methods_subtitle">Select a payment method</string>
+    <string name="no_payment_methods">No payment methods found</string>
+    <string name="add_payment_method">Add Payment Method</string>
+    <string name="default_label">Default</string>
+    <string name="expires_label">Expires %s</string>
+    <string name="btn_continue">Continue</string>
+    
+    <!-- Checkout Screen -->
+    <string name="checkout_title">Checkout</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="payment_method_label">Payment Method</string>
+    <string name="change_payment">Change</string>
+    <string name="amount_label">Amount</string>
+    <string name="from_label">From</string>
+    <string name="to_label">To</string>
+    <string name="btn_pay_now">Pay Now</string>
+    <string name="processing_payment">Processing payment…</string>
+    
+    <!-- Success Screen -->
+    <string name="payment_success">Payment Successful!</string>
+    <string name="confirmation_number">Confirmation: %s</string>
+    <string name="btn_done">Done</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_general">Something went wrong. Please try again.</string>
+    <string name="error_payment_failed">Payment failed. Please try again.</string>
+    <string name="error_select_payment">Please select a payment method</string>
+    
+    <!-- Add Card Dialog -->
+    <string name="add_card_title">Add New Card</string>
+    <string name="hint_card_number">Card Number</string>
+    <string name="hint_expiry">MM/YY</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="hint_card_holder">Card Holder Name</string>
+    <string name="btn_add_card">Add Card</string>
+    <string name="btn_cancel">Cancel</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+</resources>

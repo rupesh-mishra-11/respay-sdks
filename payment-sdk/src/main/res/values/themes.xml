@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PaymentSDKTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/payment_primary</item>
+        <item name="colorPrimaryDark">@color/payment_primary_dark</item>
+        <item name="colorAccent">@color/payment_primary</item>
+        <item name="android:colorBackground">@color/payment_background</item>
+        <item name="colorSurface">@color/payment_surface</item>
+        <item name="android:textColorPrimary">@color/payment_text_primary</item>
+        <item name="android:textColorSecondary">@color/payment_text_secondary</item>
+        <item name="android:statusBarColor">@color/payment_primary_dark</item>
+        <item name="colorError">@color/payment_error</item>
+    </style>
+    
+    <style name="PaymentDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@color/payment_primary</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

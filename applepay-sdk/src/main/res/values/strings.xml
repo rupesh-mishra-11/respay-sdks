@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ApplePay SDK Strings (prefixed with apsdk_) -->
+    
+    <!-- Apple Pay Option -->
+    <string name="apsdk_pay_with_apple_pay">Pay with Apple Pay</string>
+    <string name="apsdk_apple_pay_not_available">Apple Pay is not available.</string>
+    
+    <!-- Errors -->
+    <string name="apsdk_error_not_initialized">Apple Pay SDK not initialized</string>
+    <string name="apsdk_error_session_not_set">Session data not set</string>
+    <string name="apsdk_error_invalid_amount">Invalid amount</string>
+    <string name="apsdk_error_network">Network error occurred</string>
+</resources>

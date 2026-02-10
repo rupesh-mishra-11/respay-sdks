@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ApplePay SDK Theme -->
+    <style name="ApplePaySDKTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/apsdk_primary</item>
+        <item name="colorPrimaryDark">@color/apsdk_primary</item>
+        <item name="android:windowBackground">@color/apsdk_background</item>
+    </style>
+</resources>

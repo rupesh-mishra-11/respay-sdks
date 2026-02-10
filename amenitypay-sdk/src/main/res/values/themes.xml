@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AmenityPayTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/amenity_primary</item>
+        <item name="colorPrimaryDark">@color/amenity_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/amenity_primary_light</item>
+        
+        <!-- Accent Colors -->
+        <item name="colorAccent">@color/amenity_accent</item>
+        <item name="colorSecondary">@color/amenity_accent</item>
+        <item name="colorSecondaryVariant">@color/amenity_accent_dark</item>
+        
+        <!-- Background -->
+        <item name="android:colorBackground">@color/amenity_background</item>
+        <item name="colorSurface">@color/amenity_surface</item>
+        
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/amenity_text_primary</item>
+        <item name="android:textColorSecondary">@color/amenity_text_secondary</item>
+        <item name="android:textColorHint">@color/amenity_text_hint</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/amenity_primary_dark</item>
+        <item name="android:navigationBarColor">@color/amenity_surface</item>
+        
+        <!-- Error -->
+        <item name="colorError">@color/amenity_error</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="AmenityButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="AmenityButton.Primary">
+        <item name="backgroundTint">@color/amenity_primary</item>
+        <item name="android:textColor">@color/amenity_text_on_primary</item>
+    </style>
+    
+    <style name="AmenityButton.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="strokeColor">@color/amenity_primary</item>
+        <item name="android:textColor">@color/amenity_primary</item>
+    </style>
+    
+    <!-- Text Input Styles -->
+    <style name="AmenityTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxStrokeColor">@color/amenity_border</item>
+        <item name="hintTextColor">@color/amenity_text_secondary</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <style name="AmenityCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/amenity_card_background</item>
+    </style>
+    
+    <style name="AmenityCard.Selectable">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <!-- Dialog Theme -->
+    <style name="AmenityDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@color/amenity_primary</item>
+        <item name="colorAccent">@color/amenity_accent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+    </style>
+
+</resources>
